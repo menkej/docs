@@ -65,21 +65,22 @@ Beispiel: `phases: 1` und `minCurrent: 8`
 
 1 (phases) x 8A (minCurrent) x 230V (Netzspannung) = 1840W (Mindestladeleistung)
 
-
 #### Manipulationsmöglichkeiten
 
 Normalerweise entspricht die Überschussleistung der verfügbaren Ladeleistung. Die verfügbare Ladeleistung kann jedoch individuell durch mehrere Parameter verändert werden. Diese sind:
--	Site: `residualpower` 
--	Site: `prioritySoC`
--	Site: `bufferSoC`
--	Loadpoint: `enable: threshold`
--	Loadpoint: `disable: threshold`
+
+[Site:](site)
+-	`residualpower` 
+-	`prioritySoC`
+-	`bufferSoC`
+
+[Loadpoints:](loadpoints)
+-	`enable: threshold`
+-	`disable: threshold`
 
 Die Einstellmöglichkeiten bitte der Beschreibung der jeweiligen Parameter entnehmen.
 
 https://docs.evcc.io/docs/reference/configuration/site und https://docs.evcc.io/docs/reference/configuration/loadpoints
-
-
 
 ### Site
 
