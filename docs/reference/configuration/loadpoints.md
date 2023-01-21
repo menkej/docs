@@ -86,8 +86,8 @@ Wobei hier der Wert `renault` dem Wert eines `name` Parameters in der [Fahrzeug 
 Definiert, ob beim Abstecken des Ladekabels vom Fahrzeug die Standardeinstellungen für folgende Werte wiederhergestellt werden sollen:
 
 * [`mode`](loadpoints#mode)
-* [`SoC.min`](loadpoints#min) (veraltet)
-* [`SoC.target`](loadpoints#target) (veraltet)
+* [`SoC.min`](loadpoints#min) (veraltet, ersetzt durch fahrzeugspeifische [Einstellungen](vehicles#onidentify)
+* [`SoC.target`](loadpoints#target) (veraltet, ersetzt durch fahrzeugspeifische [Einstellungen](vehicles#onidentify)
 * [`minCurrent`](loadpoints#mincurrent)
 * [`maxCurrent`](loadpoints#maxcurrent)
 
